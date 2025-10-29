@@ -13,7 +13,7 @@ for item in items:
     print("\n") """        
 
 hf_token = "xxxxx"  # Replace with your actual Hugging Face token
-embedding_url = "https://router.huggingface.co/hf-inference/models/sentence-transformers/all-MiniLM-L6-v2/pipeline/feature-extraction"
+embedding_url = "https://router.huggingface.co/hf-inference/models/sentence-transformers/all-MiniLM-L6-v2/pipeline/feature-extraction" # hugging face allminilm has many features like voiceconversion, similarilty search etc we have used feature extraction 
 
 def generate_embedding(text: str) -> list[float]:
 
